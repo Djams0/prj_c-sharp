@@ -1,0 +1,41 @@
+📁 Keep Cash
+    📁 wwwroot
+        📁 css
+        📁 js
+        📁 lib
+        ├── favicon.ico
+    📁 Controllers
+        ├── TransactionController.cs
+        ├── GoalController.cs
+        ├── UserController.cs
+    📁 Services
+        ├── ApiService.cs
+        ├── TransactionService.cs
+        ├── GoalService.cs
+        ├── UserService.cs
+    📁 Models
+        ├── User.cs
+        ├── Transaction.cs
+        ├── Goal.cs
+    📁 Pages
+        📁 Shared
+            ├── _ViewImports.cshtml
+            ├── _ViewStart.cshtml
+        📁 Transactions
+            ├── Index.cshtml
+            ├── Add.cshtml
+        📁 Goals
+            ├── Index.cshtml
+            ├── Add.cshtml
+        📁 Settings
+            ├── Index.cshtml
+        ├── Error.cshtml
+        ├── Index.cshtml (Dashboard)
+        ├── Privacy.cshtml
+    📁 Tests
+        ├── TransactionTests.cs
+        ├── UserTests.cs
+    ├── appsettings.json
+    ├── Keep Cash.http
+    ├── Program.cs
+    ├── Startup.cs (si applicable)
