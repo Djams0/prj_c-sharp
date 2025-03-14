@@ -1,0 +1,33 @@
+🎯 Fonctionnalités principales
+✅ 1. Gestion du Capital & Transactions
+
+    Ajouter un capital initial 💰.
+    Ajouter un revenu (montant + source) 🟢.
+    Ajouter une dépense (montant + raison) 🔴.
+    Définir un plafond de dépenses journalier (alerte si dépassé) ⚠️.
+    Convertir la devise automatiquement selon le choix de l’utilisateur 💱.
+
+📊 2. Dashboard (Page Principale)
+
+    Afficher le capital actuel.
+    Voir un graphique interactif des entrées et sorties d’argent.
+    Ajouter une transaction directement via un bouton.
+    Lister les objectifs financiers en cours.
+
+🎯 3. Objectifs Financiers
+
+    Définir un objectif (exemple : Acheter un téléphone à 1000€).
+    Voir l’évolution des économies pour atteindre l’objectif.
+    Supprimer un objectif atteint.
+
+📜 4. Historique des Transactions
+
+    Liste détaillée des dépenses et revenus.
+    Possibilité de filtrer par période.
+    Repérer les dépassements financiers.
+
+⚙️ 5. Paramètres
+
+    Modifier la devise (conversion automatique).
+    Changer le plafond journalier.
+    Se déconnecter.
