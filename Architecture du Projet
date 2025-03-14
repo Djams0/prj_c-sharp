@@ -1,41 +1,29 @@
 📁 Keep Cash
-    📁 wwwroot
-        📁 css
-        📁 js
-        📁 lib
-        ├── favicon.ico
-    📁 Controllers
-        ├── TransactionController.cs
-        ├── GoalController.cs
-        ├── UserController.cs
-    📁 Services
-        ├── ApiService.cs
-        ├── TransactionService.cs
-        ├── GoalService.cs
-        ├── UserService.cs
-    📁 Models
-        ├── User.cs
-        ├── Transaction.cs
-        ├── Goal.cs
-    📁 Pages
-        📁 Shared
-            ├── _ViewImports.cshtml
-            ├── _ViewStart.cshtml
-        📁 Transactions
-            ├── Index.cshtml
-            ├── Add.cshtml
-        📁 Goals
-            ├── Index.cshtml
-            ├── Add.cshtml
-        📁 Settings
-            ├── Index.cshtml
-        ├── Error.cshtml
-        ├── Index.cshtml (Dashboard)
-        ├── Privacy.cshtml
-    📁 Tests
-        ├── TransactionTests.cs
-        ├── UserTests.cs
-    ├── appsettings.json
-    ├── Keep Cash.http
-    ├── Program.cs
-    ├── Startup.cs (si applicable)
+│── 📁 wwwroot             # Contient les fichiers statiques (CSS, JS, images)
+│   │── 📁 css
+│   │   ├── styles.css    # Styles généraux
+│   │── 📁 js
+│   │   ├── dashboard.js  # Logique de la page Dashboard
+│   │   ├── history.js    # Logique de la page Historique
+│   │   ├── settings.js   # Logique de la page Paramètres
+│── 📁 Controllers
+│   ├── HomeController.cs    # Gère l'affichage des vues principales
+│   ├── TransactionsController.cs  # Communication avec l’API pour transactions
+│   ├── SettingsController.cs  # Communication avec l’API pour paramètres
+│── 📁 Views
+│   │── 📁 Home
+│   │   ├── Index.cshtml    # Dashboard
+│   │   ├── History.cshtml  # Historique des transactions
+│   │   ├── Settings.cshtml # Paramètres et profil
+│   │── 📁 Shared
+│   │   ├── _Layout.cshtml  # Template principal (Header, Footer, etc.)
+│── 📁 Models
+│   ├── Transaction.cs     # Modèle pour les transactions
+│   ├── Settings.cs        # Modèle pour les paramètres utilisateur
+│── 📁 Tests
+│   ├── TransactionTests.cs  # Tests unitaires sur les transactions
+│   ├── SettingsTests.cs  # Tests unitaires sur les paramètres
+│── appsettings.json  # Configuration de l’application
+│── Program.cs        # Point d'entrée de l’application
+│── Startup.cs        # Configuration des services et middleware
+
